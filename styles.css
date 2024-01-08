@@ -1,0 +1,15 @@
+.input:focus-within{
+    outline: none;
+}
+
+.input{
+    border: 1px solid blue;
+    border-radius: 3px;
+}
+
+.btn_salary{
+    padding: 10px 60px;
+    border-radius: 5px;
+    border: 0px;
+    font-size: 18px;
+}
