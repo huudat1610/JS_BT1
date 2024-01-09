@@ -21,113 +21,113 @@
     </head>
 
     <body>
-            <div class="container">
-                <div class="content py-5">
-                    <ul class="nav nav-pills mb-3 justify-content-center" id="pills-tab" role="tablist">
-                        <li class="nav-item" role="presentation">
-                          <button class="nav-link active" id="pills-home-tab" data-bs-toggle="pill" data-bs-target="#pills-1" type="button" role="tab" aria-controls="pills-home" aria-selected="true">Bài 1</button>
-                        </li>
-                        <li class="nav-item" role="presentation">
-                          <button class="nav-link" id="pills-profile-tab" data-bs-toggle="pill" data-bs-target="#pills-2" type="button" role="tab" aria-controls="pills-profile" aria-selected="false">Bài 2</button>
-                        </li>
-                        <li class="nav-item" role="presentation">
-                          <button class="nav-link" id="pills-contact-tab" data-bs-toggle="pill" data-bs-target="#pills-3" type="button" role="tab" aria-controls="pills-contact" aria-selected="false">Bài 3</button>
-                        </li>
-                        <li class="nav-item" role="presentation">
-                          <button class="nav-link" id="pills-disabled-tab" data-bs-toggle="pill" data-bs-target="#pills-4" type="button" role="tab" aria-controls="pills-disabled" aria-selected="false">Bài 4</button>
-                        </li>
-                        <li class="nav-item" role="presentation">
-                            <button class="nav-link" id="pills-disabled-tab" data-bs-toggle="pill" data-bs-target="#pills-5" type="button" role="tab" aria-controls="pills-disabled" aria-selected="false">Bài 5</button>
-                          </li>
-                      </ul>
-                      <div class="tab-content" id="pills-tabContent">
-                        <!-- BT1 -->
-                        <div class="tab-pane fade show active" id="pills-1" role="tabpanel" aria-labelledby="pills-home-tab" tabindex="0">
-                          <div class="container">
-                            <div class="row gy-5 gx-5">
-                              <div class="bt_1 col-12 w-100">
-                                <label class="bg-primary p-2 text-white rounded-1"> Bài 1: Tính tiền lương nhân viên </label>
-                                <form action="" class="form">
-                                  <input type="number" class="input w-50 my-4 py-2" id="salary_day" placeholder="Nhập lương một ngày ">
-                                  <input type="number" class="input w-50 my-4 py-2" id="days" placeholder="Số ngày làm">
-                                  <div>
-                                    <button class="btn_salary bg-success" type="button" id="btn_salary">Tính lương</button>
-                                  </div>
-                                  <label id="salary"  class="salary w-100 fs-2">Số tiền lương:</label>
-                                </form>
-                              </div>
-                            </div>
-                          </div>
+          <div class="container">
+              <div class="content py-5">
+                <ul class="nav nav-pills mb-3 justify-content-center" id="pills-tab" role="tablist">
+                <li class="nav-item" role="presentation">
+                  <button class="nav-link active" id="pills-home-tab" data-bs-toggle="pill" data-bs-target="#pills-1" type="button" role="tab" aria-controls="pills-home" aria-selected="true">Bài 1</button>
+                </li>
+                <li class="nav-item" role="presentation">
+                  <button class="nav-link" id="pills-profile-tab" data-bs-toggle="pill" data-bs-target="#pills-2" type="button" role="tab" aria-controls="pills-profile" aria-selected="false">Bài 2</button>
+                </li>
+                <li class="nav-item" role="presentation">
+                  <button class="nav-link" id="pills-contact-tab" data-bs-toggle="pill" data-bs-target="#pills-3" type="button" role="tab" aria-controls="pills-contact" aria-selected="false">Bài 3</button>
+                </li>
+                <li class="nav-item" role="presentation">
+                  <button class="nav-link" id="pills-disabled-tab" data-bs-toggle="pill" data-bs-target="#pills-4" type="button" role="tab" aria-controls="pills-disabled" aria-selected="false">Bài 4</button>
+                </li>
+                <li class="nav-item" role="presentation">
+                  <button class="nav-link" id="pills-disabled-tab" data-bs-toggle="pill" data-bs-target="#pills-5" type="button" role="tab" aria-controls="pills-disabled" aria-selected="false">Bài 5</button>
+                </li>
+                </ul>
+                <div class="tab-content" id="pills-tabContent">
+                  <!-- BT1 -->
+                  <div class="tab-pane fade show active" id="pills-1" role="tabpanel" aria-labelledby="pills-home-tab" tabindex="0">
+                    <div class="container">
+                      <div class="row gy-5 gx-5">
+                        <div class="bt_1 col-12 w-100">
+                          <label class="bg-primary p-2 text-white rounded-1"> Bài 1: Tính tiền lương nhân viên </label>
+                          <form action="" class="form">
+                          <input type="number" class="input w-50 my-4 py-2" id="luongMotNgay" placeholder="Nhập lương một ngày ">
+                          <input type="number" class="input w-50 my-4 py-2" id="soNgayLam" placeholder="Số ngày làm">
+                        <div>
+                          <button class="btn_tienLuong  bg-success" type="button" id="btn_tienLuong ">Tính lương</button>
                         </div>
-                        <!-- BT2 -->
-                        <div class="tab-pane fade" id="pills-2" role="tabpanel" aria-labelledby="pills-profile-tab" tabindex="1">
-                          <div class="row gy-5 gx-5">
-                            <div class="bt_2 col-12 w-100">
-                              <label class="bg-primary p-2 text-white rounded-1">Bài 2: Tính giá trị trung bình</label>
-                              <form action="" class="form">
-                                <input type="number" class="input w-50 my-4 py-2" id="number_1" placeholder="Nhập số thứ 1">
-                                <input type="number" class="input w-50 my-4 py-2" id="number_2" placeholder="Nhập số thứ 2">
-                                <input type="number" class="input w-50 my-4 py-2" id="number_3" placeholder="Nhập số thứ 3">
-                                <input type="number" class="input w-50 my-4 py-2" id="number_4" placeholder="Nhập số thứ 4">
-                                <input type="number" class="input w-50 my-4 py-2" id="number_5" placeholder="Nhập số thứ 5">
-                                <div>
-                                  <button class="btn_salary bg-success" type="button" id="btn_number">Tính trung bình</button>
-                                </div>
-                                <label id="number"  class="salary w-100 fs-2">Giá trị trung bình :</label>
-                              </form>
-                            </div>
-                          </div>
-                        </div>
-                        <!-- BT3 -->
-                        <div class="tab-pane fade" id="pills-3" role="tabpanel" aria-labelledby="pills-contact-tab" tabindex="3">
-                          <div class="row gy-5 gx-5">
-                            <div class="bt_1 col-12 w-100">
-                              <label class="bg-primary p-2 text-white rounded-1"> Bài 3: Quy đổi tiền </label>
-                              <form action="" class="form">
-                                <input type="number" class="input w-50 my-4 py-2" id="money" placeholder="Nhập số tiền USD">
-                                <div>
-                                  <button class="btn_salary bg-success" type="button" id="btn_money">Quy Đổi Tiền</button>
-                                </div>
-                                <label id="lbl_usd"  class="salary w-100 fs-2">Số tiền quy đổi:</label>
-                              </form>
-                            </div>
-                          </div>
-                        </div>
-                        <!-- BT4 -->
-                        <div class="tab-pane fade" id="pills-4" role="tabpanel" aria-labelledby="pills-disabled-tab" tabindex="4">
-                          <div class="row gy-5 gx-5">
-                            <div class="bt_1 col-12 w-100">
-                              <label class="bg-primary p-2 text-white rounded-1">Bài 4: Chu vi và diện tích hình chữ nhật </label>
-                              <form action="" class="form">
-                                <input type="number" class="input w-50 my-4 py-2" id="width_HCN" placeholder="Nhập chiều dài">
-                                <input type="number" class="input w-50 my-4 py-2" id="height_HCN" placeholder="Nhập chiều rộng">
-                                <div>
-                                  <button class="btn_salary bg-success" type="button" id="btn_hcn">Tính </button>
-                                </div>
-                                <label id="lbl_area"  class="salary w-100 fs-2">Diện tích : </label>
-                                <label id="lbl_peri"  class="salary w-100 fs-2">Chu vi</label>
-                              </form>
-                            </div>
-                          </div>
-                        </div>
-                        <!-- BT5 -->
-                        <div class="tab-pane fade" id="pills-5" role="tabpanel" aria-labelledby="pills-disabled-tab" tabindex="0">
-                          <div class="row gy-5 gx-5">
-                            <div class="bt_1 col-12 w-100">
-                              <label class="bg-primary p-2 text-white rounded-1"> Bài 5: Tính tổng 2 ký số </label>
-                              <form action="" class="form">
-                                <input type="number" class="input w-50 my-4 py-2" id="number_so" min="10" max="99" placeholder="Nhập số có 2 chữ số">
-                                <div>
-                                  <button class="btn_salary bg-success" type="button" id="btn_so">Tính</button>
-                                </div>
-                                <label id="lbl_tong"  class="salary w-100 fs-2">Tổng ký số:</label>
-                              </form>
-                            </div>
-                          </div>
+                          <label id="tienLuong"  class="tienLuong w-100 fs-2">Số tiền lương:</label>
+                          </form>
                         </div>
                       </div>
+                    </div>
+                  </div>
+                  <!-- BT2 -->
+                  <div class="tab-pane fade" id="pills-2" role="tabpanel" aria-labelledby="pills-profile-tab" tabindex="1">
+                    <div class="row gy-5 gx-5">
+                      <div class="bt_2 col-12 w-100">
+                        <label class="bg-primary p-2 text-white rounded-1">Bài 2: Tính giá trị trung bình</label>
+                        <form action="" class="form">
+                            <input type="number" class="input w-50 my-4 py-2" id="number_1" placeholder="Nhập số thứ 1">
+                            <input type="number" class="input w-50 my-4 py-2" id="number_2" placeholder="Nhập số thứ 2">
+                            <input type="number" class="input w-50 my-4 py-2" id="number_3" placeholder="Nhập số thứ 3">
+                            <input type="number" class="input w-50 my-4 py-2" id="number_4" placeholder="Nhập số thứ 4">
+                            <input type="number" class="input w-50 my-4 py-2" id="number_5" placeholder="Nhập số thứ 5">
+                          <div>
+                            <button class="btn_tienLuong  bg-success" type="button" id="btn_number">Tính trung bình</button>
+                          </div>
+                            <label id="giaTriTrungBinh"  class="tienLuong w-100 fs-2">Giá trị trung bình :</label>
+                        </form>
+                      </div>
+                    </div>
+                  </div>
+                  <!-- BT3 -->
+                  <div class="tab-pane fade" id="pills-3" role="tabpanel" aria-labelledby="pills-contact-tab" tabindex="3">
+                    <div class="row gy-5 gx-5">
+                      <div class="bt_1 col-12 w-100">
+                        <label class="bg-primary p-2 text-white rounded-1"> Bài 3: Quy đổi tiền </label>
+                        <form action="" class="form">
+                          <input type="number" class="input w-50 my-4 py-2" id="soTien" placeholder="Nhập số tiền USD">
+                          <div>
+                            <button class="btn_tienLuong  bg-success" type="button" id="btn_soTien">Quy Đổi Tiền</button>
+                          </div>
+                          <label id="quyDoi"  class="tienLuong w-100 fs-2">Số tiền quy đổi:</label>
+                        </form>
+                      </div>
+                    </div>
+                  </div> 
+                  <!-- BT4 -->
+                  <div class="tab-pane fade" id="pills-4" role="tabpanel" aria-labelledby="pills-disabled-tab" tabindex="4">
+                    <div class="row gy-5 gx-5">
+                      <div class="bt_1 col-12 w-100">
+                        <label class="bg-primary p-2 text-white rounded-1">Bài 4: Chu vi và diện tích hình chữ nhật </label>
+                        <form action="" class="form">
+                          <input type="number" class="input w-50 my-4 py-2" id="width" placeholder="Nhập chiều dài">
+                          <input type="number" class="input w-50 my-4 py-2" id="height" placeholder="Nhập chiều rộng">
+                          <div>
+                            <button class="btn_tienLuong  bg-success" type="button" id="btn_hcn">Tính </button>
+                          </div>
+                          <label id="dientichHCN"  class="tienLuong w-100 fs-2">Diện tích : </label>
+                          <label id="chuviHCN"  class="tienLuong w-100 fs-2">Chu vi</label>
+                        </form>
+                      </div>
+                    </div>
+                  </div>
+                  <!-- BT5 -->
+                  <div class="tab-pane fade" id="pills-5" role="tabpanel" aria-labelledby="pills-disabled-tab" tabindex="0">
+                    <div class="row gy-5 gx-5">
+                      <div class="bt_1 col-12 w-100">
+                        <label class="bg-primary p-2 text-white rounded-1"> Bài 5: Tính tổng 2 ký số </label>
+                        <form action="" class="form">
+                          <input type="number" class="input w-50 my-4 py-2" id="number_so" min="10" max="99" placeholder="Nhập số có 2 chữ số">
+                          <div>
+                            <button class="btn_tienLuong  bg-success" type="button" id="btn_so">Tính</button>
+                          </div>
+                          <label id="lbl_tong"  class="tienLuong w-100 fs-2">Tổng ký số:</label>
+                        </form>
+                      </div>
+                    </div>
+                  </div>
                 </div>
-            </div>
+              </div>
+          </div>
         <script
             src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
             integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
@@ -139,6 +139,7 @@
             integrity="sha384-BBtl+eGJRgqQAUMxJ7pMwbEyER4l1g+O15P+16Ep7Q9Q+zqX6gSbd85u4mG4QzX+"
             crossorigin="anonymous"
         ></script>
+        <!-- JS  -->
         <script src="./index.js" ></script>
     </body>
 </html>
